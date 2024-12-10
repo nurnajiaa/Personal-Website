@@ -1,0 +1,227 @@
+<html> 
+<html>
+<head>
+<title>Education</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style> 
+html,body {font-family: "Raleway", sans-serif}
+
+/* Header/Blog Title */
+.header {
+  padding: 25px;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 40px;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace
+}
+
+.header h2 {
+  font-size: 30px;
+  font-color: #B5838D;
+  text-align: center;
+  font-family: Copperplate, Papyrus, fantasy;
+}
+
+.row h3 {
+  font-size: 20px;
+  text-align: right;
+}
+
+.row h4 {
+  font-size: 30px;
+  font-family: Georgia,  Serif;
+}
+
+.row h5 {
+  font-size: 20px;
+} 
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-color: #FEF3FF;
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+
+.column { 
+   float: left; 
+   width: 31%; 
+   padding: 10px; 
+  } 
+  
+.row: after  { 
+   display: table; 
+   clear: both; 
+  } 
+  
+img { 
+   height: 350px; 
+   width: 380px; 
+  } 
+  
+/* Footer */
+.footer h1{
+  font-size: 35px;
+  font-color: #442858;
+  padding: 15px;
+  text-align: center;
+    font-family: Copperplate, Papyrus, fantasy;
+  }
+
+.footer h2 {
+  font-size: 20px;
+  text-align: center;
+} 
+
+ </style> 
+ 
+ 
+</head> 
+<body> 
+ 
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide">LOGO</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="index.html" class="w3-bar-item w3-button"><i class="fa fa-home"></i>Home</a>
+      <a href="about me.html" class="w3-bar-item w3-button"><i class="fa fa-user"></i> Biodata</a>
+      <a href="education.html" class="w3-bar-item w3-button"><i class="fa fa-graduation-cap"></i> Education</a>
+      <a href="experience.html" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> Experience</a>
+      <a href="Family.html" class="w3-bar-item w3-button"><i class="fa fa-users"></i> Family</a>
+      <a href="Gallery.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> Gallery</a>	
+    </div>	
+  </div>
+</div>
+<br>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+
+<div class="header">
+    <div class="card">
+	   <h1>MY EDUCATION</h1>
+       <h2><font color="#442858">"Education is the most powerful weapon which you can use to change the world"</font></h2>
+	     <h3><font face="Garet" color="#4D2D61">Nelson Mandela</font></h3>
+	</div>
+</div>
+
+<!-- First Photo Grid-->	
+  <div class="w3-row-padding w3-padding-16 w3-center" id="school">
+    <div class="column">
+  <img src="gambar/tabikakemas.png" alt="tabika kemas" width="50%"> 
+  <p id="tabikakemas">Tabika Kemas</p> 
+ 
+  <button type="button" onclick="myText()">Click here</button> 
+ 
+  <script> 
+   function myText()  
+   {  
+     document.getElementById("tabikakemas").innerHTML = "Its first school i go in my life which is near my house when i am 5 years old, In 2008" 
+   } 
+  </script>    
+  </div> 
+ 
+  <div class="column">
+  <img src="gambar/tadikaadik-adik.jpeg" alt="tadikaadik-adik" width="50%"> 
+  <p id="tadika">Tadika Adik-Adik</p>  
+ 
+   <button type="button" onclick="myWord()">Click here</button>  
+ 
+  <script> 
+   function myWord()  
+   {  
+     document.getElementById("tadika").innerHTML = "One of the reason why i switch from Tabika Kemas is because my sister have been bullied there. I studied there when i 6 years old, In 2009" 
+   } 
+  </script> 
+  </div> 
+ 
+  <div class="column"> 
+  <img src="gambar/skwm2.jpeg" alt="skwm2" width="50%">  
+   <p id="skwm2">Sekolah Kebangsaan Wangsa Maju Seksyen 2</p>  
+ 
+   <button type="button" onclick="mySentence()">Click here</button>  
+ 
+  <script> 
+   function mySentence()  
+   {  
+     document.getElementById("skwm2").innerHTML = "This School is near my house. I studied there when i 7-12 years old, In 2010-2015" 
+   } 
+  </script> 
+  </div> 
+</div>
+
+<!-- Second Photo Grid-->
+<div class="w3-row-padding w3-padding-16 w3-center"> 
+  <div class="column"> 
+  <img src="gambar/smhafiz.jpeg" alt="sm Hafiz" width="50%"> 
+  <p id="smh">SEKOLAH MENENGAH HAFIZ</p> 
+ 
+  <button type="button" onclick="smh()">Click here</button> 
+ 
+  <script> 
+   function smh()  
+   {  
+     document.getElementById("smh").innerHTML = "I enrolled in this school because I wanted to register with my relatives and attend their interviews; sadly, my cousin was not successful in passing the interview. I spent three years studying here, between the ages of thirteen and fifteen, from 2016 to 2018."
+   } 
+  </script>    
+  </div> 
+ 
+  <div class="column"> 
+  <img src="gambar/SMKPW.png" alt="SMKPW" width="50%"> 
+  <p id="smkpw">SEKOLAH MENENGAH KEBANGSAAN PUTERI WILAYAH</p>  
+ 
+   <button type="button" onclick="smkpw()">Click here</button>  
+ 
+  <script> 
+   function smkpw()  
+   {  
+     document.getElementById("smkpw").innerHTML = "I inform my parents in December 2018 that I want to leave my previous school since it isn't offering the courses I desire. I moved out when I was 16 years old, or form 4, and I studied here for two years and three months, from 16 to 18 years old. From 2019 to 2021." 
+   } 
+  </script> 
+  </div> 
+ 
+  <div class="column"> 
+  <img src="gambar/matrik.jpg" alt="matrik" width="50%">  
+   <p id="matrik">KOLEJ MATRIKULASI PERLIS</p>  
+ 
+   <button type="button" onclick="matrik()">Click here</button>  
+ 
+  <script> 
+   function matrik()  
+   {  
+     document.getElementById("matrik").innerHTML = "After the SPM in 2021, I applied on the UPU website, but I received no offers.I choose to accept the offer of matriculation after that. I spent a year there studying between the ages of 18 and 19 in 2021–2022. " 
+   } 
+  </script> 
+  </div> 
+ </div>  
+
+ 
+<div class="footer">
+      <h1><font color="#442858">"Education is the movement from darkness to light"</font></h1>
+      <h2><font face="Garet" color="RED" align="center">COPYRIGHT &copy; 2024 NUR NAJIHAH.</h2></font>
+	  <h2><class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
+    <a href="https://www.facebook.com/profile.php?id=100003311840868&mibextid=ZbWKwL"><i class="fa fa-facebook-official w3-hover-opacity"></a></i>
+    <a href="https://www.instagram.com/nrnjhh18?igsh=MWFwNzRqdHk0cW5neg=="><i class="fa fa-instagram w3-hover-opacity"></a></i>
+    <a href="https://www.snapchat.com/add/nnajiha1778?share_id=lbpc6cDgMo4&locale=en-MY"><i class="fa fa-snapchat w3-hover-opacity"></a></i>
+    <a href="https://pin.it/65fRLzJkI"><i class="fa fa-pinterest-p w3-hover-opacity"></a></i>
+    <a href="https://wa.me/0125272109"><i class="fa fa-whatsapp w3-hover-opacity"></a></i></h2>
+</div>	
+
+</body> 
+</html>
+
+
